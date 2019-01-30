@@ -20,9 +20,9 @@ function theBeatlesPlay(players, instruments) {
  function iLoveTheBeatles(num) {
     var arr = [];
     do {
-        love.push("I love the Beatles!");
+        arr.push("I love the Beatles!");
         num++;
     } while (num < 15);
 
-     return love;
+     return arr;
 }
